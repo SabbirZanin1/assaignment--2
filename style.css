@@ -1,0 +1,428 @@
+
+*{
+    margin: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #64ec09c3;
+}
+.header-top{
+    display: flex;
+
+}
+.nav{
+    margin-left: 90px;
+    padding-top: 50px;
+
+    
+    
+}
+.nav a{
+    padding-left: 15px;
+    
+}
+.nav a:hover{
+    color: rgb(36, 244, 36);
+  
+}
+.dropdown{
+    display: grid;
+    grid-template-columns: repeat(5,3fr);
+}
+
+
+.nav a{
+    color: rgb(244, 244, 237);
+    text-decoration: none;
+
+}
+.login-btn{
+    margin-left: 310px;
+    margin-top: 50px;    width: 168px;
+    height: 44px;
+    padding: 10px 24px;
+    background-color: #E02C6D;
+    color: #FFFFFF;
+    border: none;
+    font-size: 16px;
+
+   
+}
+
+
+.header-main{
+    background-color: #2D25A0;
+}
+.header{
+    display: flex;
+    justify-content: space-evenly;
+    
+     
+}
+
+.header-title{
+    margin-left: 100px;
+    margin-top: 110px;
+    
+}
+.header-title  h1{
+    width: 485px;
+    font-size: 64px;
+    color: white;
+}
+.btn{
+    width: 168px;
+    height: 44px;
+    padding: 10px 24px;
+    background-color: #E02C6D;
+    color: #FFFFFF;
+    border: none;
+    font-size: 16px;
+    margin-top: 20px;
+
+}
+.btn:hover{
+    background-color: rgb(0, 255, 76);
+    color: blue;
+    cursor: pointer;
+}
+.arow{
+    margin-left: 10px;
+}
+
+.header-pic img{
+    width: 556.01px;
+    height: 438px;
+    margin-top: 67px;
+    margin-right: 70px;
+    margin-bottom: 86px;
+}
+
+/* Header Style end */
+
+
+    /* Player Style start  */
+
+.players{
+    width: 1050px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 27px;
+    grid-column-gap: 30px;
+}
+.player-card{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 0;
+}
+.blogs{
+    width: 330px;
+    background-color: #ccecf8;
+    border-radius: 10px;
+    
+}
+.blogs:hover{
+    box-shadow: 0px 0px 40px rgb(187, 187, 187, 2);
+}
+.blog{
+    margin: 15px;
+}
+.football-icon img{
+    width: 500px;
+    margin-top: 50px;
+    
+}
+.thumbnail img{
+    width: 300px;
+    height: 256px;
+    border-radius: 5px;
+}
+hr{
+    border: 20px dotted #140a47;
+    border-bottom: none;
+    /* width: 20px; */
+    position: relative;
+    /* left: 37%;  */
+    margin-top: 50px;
+}
+
+/* video section */
+
+.video{
+    text-align: center;
+}
+.video video{
+    text-align: center;
+    width: 600px;
+    
+   
+}
+.video-title{
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    color: #E02C6D;
+}
+h2{
+    margin: 0;
+    padding: 0;
+}
+
+/* 2ND PART */
+
+.highlight{
+    display: flex;
+}
+.highlight-title{
+    width: 480px;
+    /* margin-top: 154px; */
+    margin-left: 50px;
+
+}
+.highlight-title h2{
+    font-size: 48px;
+}
+.highlight-title p{
+    width: 404px;
+    font-size: 16px;
+}
+.btn-2{
+    width: 168px;
+    height: 44px;
+    padding: 10px 24px;
+    background-color: #E02C6D;
+    color: #FFFFFF;
+    border: none;
+    font-size: 16px;
+    margin-top: 20px;
+}
+.btn-2:hover{
+    cursor: pointer;
+}
+.highlight-photo img{
+    width: 567px;
+    height: 427px;
+    /* margin-top: 95px; */
+    margin-left: 69px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    margin-bottom: 0;
+}
+
+
+/* Footer style start */
+
+footer{
+    margin-bottom: 50px;
+}
+.footer-menu{
+    text-align: center;
+}
+
+.icon{
+    width: 70px;
+    height: 70px;
+    color: #4267B2;
+    border-radius: 50%;
+    padding: 10px;
+    
+}
+.copyright p{
+    font-size: 18px;
+}
+
+
+/* design end */
+
+
+/* responsive */
+@media screen and (max-width: 600px) {
+    
+    body{
+
+        background-color: yellow;
+    }
+    .header{
+        flex-direction: column;
+    }
+    .header-section{
+        display: ;
+    }
+    .header-top{
+        display: flex;
+    }
+
+    .nav {
+        /* background-color: rgb(141, 114, 5);  */
+       display: flex; 
+      
+        position: absolute;
+        top: 8px;
+        left: 0px;
+        font-size: 19px;
+        
+    }
+      
+    .menu-item {
+        color: rgb(248, 238, 242);
+        padding: 1px;
+    }
+    .three-dots{
+      /* position: relative; */
+      width: auto;
+      
+    }  
+    .three-dots:after {
+        cursor: pointer;
+        color: rgb(17, 237, 212);
+        content: '☰';
+        font-size: 22px;
+        /* margin-right: 390px; */
+        /* padding: 6px; */
+        /* border: 1px; */
+        margin-left: -80px;
+        
+    }
+      
+    a {
+        text-decoration: none;
+        color: rgb(240, 230, 230);
+    }
+      
+    a div {
+        /* padding: 4px; */
+    
+    }
+    .dropdown a{
+      display: block;
+    }
+    .dropdown a div{
+      padding: 11px 22px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    text-transform: uppercase;
+    }
+    .dropdown a div:hover {
+      
+      /* z-index: 10; */
+    }
+      
+    .dropdown {
+        /* position: absolute; */
+        left: 0;
+        top:1rem;
+        
+        
+        /* border: 1px solid rgba(0, 0, 0, 0.237); */
+        border-radius: 4px;
+        width: auto;
+         
+        color: #09d765;
+      
+        outline: none;
+        opacity: 0;
+        z-index: -1;
+        max-height: 0;
+        transition: opacity 0.1s, z-index 0.1s, max-height: 5s;
+    }
+      
+    .dropdown-container:focus {
+        outline: none;
+    }
+      
+    .dropdown-container:focus .dropdown {
+        opacity: 1;
+        z-index: 100;
+        max-height: 100vh;
+        transition: opacity 0.2s, z-index 0.2s, max-height: 0.2s;
+    }
+    
+
+
+
+    
+    .login-btn{
+      width: auto;
+      font-size: 10px;
+    }
+    .header-main{
+        background-color: green;
+        flex-direction: column;
+        width: 100%;
+        display: ;
+    }
+    .header-title{
+        margin-left: 0;
+        margin-bottom: 40px;
+    }
+    .header-title h1{
+        width: 278px;
+        font-size: 36px;
+        
+    }
+     .header-pic img{
+        width: 100%;
+        height: 300px;
+        position: relative;
+        margin-right: 350px;
+        margin: 0;
+        margin-bottom: 30px;
+   
+    } 
+    .players{
+        width: 85%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+       
+    }
+    .blogs{
+        margin: 15px;
+    }
+
+    .video video{
+        width: 100%;
+    }
+
+
+    .highlight{
+        flex-direction: column;
+    }
+    .highlight-title{
+        width: 329px;
+        margin-left: 1px;
+        color: #4267B2;
+    }
+    .highlight-title p{
+        width: 329px;
+        color: blue;
+    }
+    .highlight-photo img{
+        width: 100%;
+        height: 248px;
+        margin-left: 0;
+        margin-top: 30px;
+    }
+    
+   
+    .football-icon img{
+        width: 300px;
+    }
+    .icon{
+        width: 32px;
+        height: 32px;
+        color: #4267B2;   
+    }
+    .copyright p{
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    p{
+        margin: 0;
+        text-decoration: none;
+    }
+}
